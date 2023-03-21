@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+.body{
+    font-family: 'Raleway', sans-serif;
+background: url('bg.png') no-repeat center ;
+background-size: cover;
+
+}
+.BlueBox{
+    background-color: rgb(28, 39, 70);
+}
+#Username::placeholder{
+    color: rgb(0, 190, 190);
+    font-size: larger;
+}
+#Password::placeholder{
+    color: rgb(0, 190, 190);
+    font-size: larger;
+}
+#Email::placeholder{
+    color: rgb(0, 190, 190);
+    font-size: larger;
+}
+#submitBtn{
+    background-color: rgb(20, 97, 141);font-size: 40px; box-shadow: 0 0 10px rgba(0, 162, 255, 0.329);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) 0.2s;
+}
+#submitBtn:hover{
+background-color: #172753;
+transform: scale(1.05);
+}

@@ -1,0 +1,29 @@
+.header {
+    background-color: #1c2248;
+    color: #cec3c1;
+}
+
+.footer {
+    background-color: #1c2248;
+}
+
+#upperText {
+    border-bottom: 1px solid #cec3c1;
+}
+
+* {
+    font-style: italic;
+}
+
+
+.red-buttons {
+    background-color: #cec3c1;
+    color: #190028;
+    border: 0px;
+}
+
+.red-buttons:hover {
+    background-color: #1c2248;
+    border: 1px solid #cec3c1;
+    color: #cec3c1;
+}
